@@ -25,3 +25,10 @@ bool Random::randomTrue(double pct)
     std::uniform_real_distribution<double> dist(0, 1);
     return dist(mersenneTwister) <= pct;
 }
+
+int addition (int a, int b)
+{
+  int r;
+  r=a+b;
+  return r;
+}
